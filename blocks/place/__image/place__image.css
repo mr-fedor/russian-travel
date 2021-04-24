@@ -1,0 +1,15 @@
+.place__image{
+  margin-bottom: 32px;
+  display: block;
+  position: relative;
+  left: -16px;
+  width: calc(100% + 32px);
+}
+
+@media screen and (min-width: 768px) {
+  .place__image{
+    margin: 0;
+    left: 0;
+    width: 100%;
+  }
+}
